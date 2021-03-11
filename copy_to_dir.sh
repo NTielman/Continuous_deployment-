@@ -1,4 +1,4 @@
-cd /root/farm
-git pull origin main
+cd Continuous_deployment-/
+git pull
 git status
 systemctl restart
