@@ -30,4 +30,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }} 
           port: 22
-          script: sh ../copy_to_dir.sh
+          script: |
+            ls
+            cd Continuous_deployment-/
+            git pull
+            git status
