@@ -35,3 +35,4 @@ jobs:
             git pull
             git status
             ls
+            cat README.md
