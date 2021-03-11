@@ -12,7 +12,7 @@
 *    How it relates to the other components: It's the final step and the end result your users get to see and interact with. 
 *    A problem I faced with this step: As many co-students faced difficulties dealing with SSH keys not being recognized properly. I researched alternative ways of getting repo files onto a server without having to share sensitive information over Github. A possible solution is through setting up Github action runner from within my VPS. The Github runner automatically places a copy of your repository onto your server. From that point it's only a matter of running ensuing commands to copy/ replace the file being executed by Gunicorn and the server automatically gets updated.  
 
-########
+****
 
 (Edit): The reason I chose to use a github runner in my previous submission instead of logging in on my vps via github actions, was that I was trying to avoid the latter. I saw that plenty of talented students in the vraagbaak were struggling with using github secrets, so I honestly did not even want to try it. After discussing my submission over with Stefan, he challenged me to retry the assignment, this time by logging in to my vps via github (to demonstrate that i understand and grasp how to work with it).
 
